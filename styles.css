@@ -45,22 +45,20 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 0;
+  padding: 8px 0;
   gap: 24px;
 }
 
 .logo {
-  height: 90px;
   display: flex;
   align-items: center;
   background: #ffffff;
-  padding: 16px 40px;
+  padding: 16px 24px;
   border-radius: 8px;
-  min-width: 280px;
 }
 
 .logo img {
-  height: 100%;
+  height: 100px;
   width: auto;
   object-fit: contain;
 }
@@ -406,17 +404,16 @@ button {
 }
 
 .footer-logo {
-  height: 70px;
   display: flex;
   align-items: center;
   background: #ffffff;
-  padding: 14px 36px;
+  padding: 14px 24px;
   border-radius: 8px;
   width: fit-content;
 }
 
 .footer-logo img {
-  height: 100%;
+  height: 90px;
   width: auto;
   object-fit: contain;
 }
@@ -483,14 +480,11 @@ button {
     padding: 24px;
   }
   
-  .logo {
+  .logo img {
     height: 70px;
-    padding: 12px 24px;
-    min-width: 220px;
   }
   
-  .footer-logo {
-    height: 60px;
-    padding: 12px 24px;
+  .footer-logo img {
+    height: 70px;
   }
 }
