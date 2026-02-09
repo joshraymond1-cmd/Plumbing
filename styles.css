@@ -51,6 +51,15 @@ a {
 .logo {
   font-weight: 700;
   font-size: 1.25rem;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -426,5 +435,9 @@ button {
 
   .hero-card {
     padding: 24px;
+  }
+  
+  .logo {
+    height: 40px;
   }
 }
